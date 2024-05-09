@@ -6,7 +6,6 @@
 
 .continer{
     max-width: 1440px;
-    background-color: #4295E4;
 }
 /* header qismi */
 
@@ -14,6 +13,9 @@
 /* eng tepa qismi */
 header{
     max-width: 1440px;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 .engTepasi{
     padding: 9px 100px 9px 452px;
@@ -79,9 +81,8 @@ nav a{
 }
 /*  main qismi */
 main{
-   background-color: #C4CDD5;
      max-width: 1245px;
-    margin: 20px 95px 100px 100px ;
+    margin: 144px 95px 100px 100px ;
   
 }
 .main{
@@ -117,6 +118,7 @@ main h3{
 .кодовые{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .Электронные{
     display: flex;
@@ -143,7 +145,7 @@ main h3{
     line-height: 26px;
     padding: 7px 16px;
     font-weight: 400;
-    margin-left: 508px;
+    margin-left: 500px;
 }
 .chapCard{
     border: 1px solid #C4CDD5;
@@ -190,4 +192,54 @@ main h3{
 
 /* ung taraf */
 
+.card{
+    box-shadow: -1px 1px 1px #EAEAEA;
+    
+    width: 288px;
+    height: 453px;
+    
+}
+.cardOsti{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.GoldenSoft{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
 
+}
+.card p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #454F5B;
+    margin-bottom: 10px;
+}
+.cost-3{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    line-height: 23.87px;
+    font-weight: 600;
+    color: #161C24;
+}
+.cost-4{
+    font-size: 18;
+    line-height: 21.48px;
+    font-weight: 300;
+    color: #454F5B;
+    text-decoration:line-through;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
