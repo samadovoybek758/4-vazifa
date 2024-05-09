@@ -6,6 +6,7 @@
 
 .continer{
     max-width: 1440px;
+    background-color: #4295E4;
 }
 /* header qismi */
 
@@ -78,8 +79,15 @@ nav a{
 }
 /*  main qismi */
 main{
+   background-color: #C4CDD5;
      max-width: 1245px;
     margin: 20px 95px 100px 100px ;
+  
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 .Главная{
     display: inline-block;
@@ -105,12 +113,37 @@ main h3{
     line-height: 28px;
 }
 
-
+/* chap taraf */
+.кодовые{
+    display: flex;
+    align-items: center;
+}
+.Электронные{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 31px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
 .Сбросить{
     border: 1px solid #ADD7FF;
     padding: 7px 72px;
     margin-top: 32px;
     margin-bottom: 32px;
+    width: 288px;
+}
+.Популярности{
+    display: flex;
+    align-items: center;
+    gap: 16px ;
+    border: 1px solid #C4CDD5;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 7px 16px;
+    font-weight: 400;
+    margin-left: 508px;
 }
 .chapCard{
     border: 1px solid #C4CDD5;
@@ -154,3 +187,7 @@ main h3{
     border: 1px solid #EAEAEA;
     padding: 10px 29px 10px 30px;
 }
+
+/* ung taraf */
+
+
