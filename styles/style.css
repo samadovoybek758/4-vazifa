@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header qismi */
+
+
+/* eng tepa qismi */
+header{
+    max-width: 1440px;
+}
+.engTepasi{
+    padding: 9px 100px 9px 452px;
+    background-color: #454F5B;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 12%;
+}
+.Обратный{
+    margin-left: 197px;
+    text-decoration: underline;
+}
+
+
+/* navbar qismi */
+nav{
+    display: flex;
+    padding: 20px 100px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+nav>img{
+    margin-right: 101.5px;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+nav a{
+    color: #161C24;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 23.87px;
+}
+.Каталог{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.right-1{
+    display: flex;
+    gap: 30px;
+    margin-left: 283.1px;
+}
+.calNumber{
+    display: flex;
+    gap: 1px;
+    align-items: center;
+}
+.like{
+    display:inline;
+    margin-right: 24px;
+}
