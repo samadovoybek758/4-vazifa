@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "SF Pro Text";
 }
 
 .continer{
@@ -242,4 +243,25 @@ main h3{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+.numbers span{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+.active{
+    background-color: #4295E4;
+    border-radius: 2px;
+    text-align: center;
+   
 }
